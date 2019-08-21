@@ -133,7 +133,8 @@ ProgressStep.propTypes = {
   previousBtnTextStyle: PropTypes.object,
   previousBtnDisabled: PropTypes.bool,
   scrollViewProps: PropTypes.object,
-  errors: PropTypes.bool
+  errors: PropTypes.bool,
+  disableProgressButtons: PropTypes.bool
 };
 
 ProgressStep.defaultProps = {
